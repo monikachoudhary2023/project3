@@ -1,0 +1,106 @@
+.section1{display: flex;
+         background-color: aliceblue;
+         justify-content: center;
+         padding: 30px;
+        }
+.button{padding-left: 30px;
+       margin:auto;}        
+
+ul{display: flex;
+   list-style-type: none;}
+
+li{margin: 10px;
+   font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.header{
+        margin: 0 24px;
+        height: 64px;
+        display: flex;
+        width: 100%;
+     justify-content: center;
+        align-items: center; 
+    }
+.section2 {padding:10px;
+        display:flex;
+        justify-content: center;
+        background-color: aqua;} 
+.left{ 
+      margin:20px;
+    background-color:antiquewhite ;}
+.right{justify-content: center;
+     margin:20px;
+    background-color:beige ;}
+#img1{height:400px;
+  width:400px;
+   margin:20px;}
+        
+
+    #courses-section {
+        padding: 2rem 3.5rem;
+        background-color: rgb(245, 245, 245);}
+      
+      .courses-row {
+        display: flex; }
+      
+      .course {
+        flex-basis: 25%;
+        margin: 1rem;
+        background-color: white;}
+      
+      .course .text-content {
+        padding: 1rem 1rem 1.5rem 1rem;}
+      
+      .course h3,
+      .course h4 {
+        padding-bottom: .5rem;}
+      
+      @media only screen and (max-width: 500px) {
+        #courses-section {
+          padding: 2rem 1rem;
+          background-color: inherit;}
+      
+        .courses-row {
+          flex-direction: column;}
+      
+        .course {
+          margin: .25rem 0;}
+      
+        .course .text-content {
+          background-color: rgb(216, 216, 216);}
+      
+        .course h3 {
+          padding-bottom: 0;}
+      
+        .course .media-container,
+        .course h4,
+        .course p {
+          display: none;}
+      }
+ .section4 {padding:10px;
+    display:flex;
+    justify-content: center;
+    background-color: aqua;} 
+.left{ 
+  margin:20px;
+background-color:antiquewhite ;}
+.right{justify-content: center;
+ margin:20px;
+background-color:beige ;}
+video{height:500px;
+width:400px;
+margin:10px;}
+.thesis-section{
+    padding-top: 20px;
+    margin:10px;
+}
+
+#footer{
+    display: flex;
+    padding: 1rem 1.5rem;
+    color:black;
+    margin: .75rem;
+    position: fixed;
+    background-color: brown;
+    text-align: center;
+}      
+
